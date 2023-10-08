@@ -1,0 +1,23 @@
+
+.frame{
+  height: 50vh;
+  width: 30vw;
+  background: rgb(53, 216, 148);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.logo{
+  animation: logo-spin infinite 20s linear;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
